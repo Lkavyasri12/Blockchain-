@@ -6,7 +6,7 @@ contract product {
     uint256 productCount; //Number of products
 
     struct seller{  //Structure to hold seller information
-        uint256 sellerId;  
+        uint256 sellerId; 
         bytes32 sellerName;
         bytes32 sellerBrand;
         bytes32 sellerCode;
